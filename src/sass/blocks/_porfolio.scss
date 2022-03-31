@@ -20,13 +20,12 @@
 		transition: all 0.8s;
 		img{
 			width: 100%;
-			// filter: grayscale(100%);
+			filter: grayscale(100%);
 		}
 		&:hover{
-			// filter: grayscale(0%);
 			transform: scale(1.1);
-			filter: drop-shadow(16px 16px 20px $main-color);
-			filter: grayscale(100%);
+			// filter: grayscale(1%);
+			filter: grayscale(0) drop-shadow(16px 16px 20px $main-color);
 		}
 	}
 }

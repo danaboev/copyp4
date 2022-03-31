@@ -1,0 +1,41 @@
+.skills{
+
+	padding-top: 130px;   
+
+
+	&__subtitle{
+		text-align: center;
+	}
+	&__wrapper{
+		
+		padding: 60px 10px 120px 10px;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-auto-rows: 1fr;
+		gap: 13px 13px;
+	}	
+	&__skill{
+		padding: 30px 30px 25px 30px;
+		width: 270px;
+		height: 270px;
+		border: 1px solid #000000;
+		box-sizing: border-box;
+
+		&_title{
+			margin-top: 20px;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 21px;
+		}
+		&_descr{
+			margin-top: 15px;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+	
+
+		
+
+}

@@ -1,13 +1,9 @@
 .skills{
-
 	padding-top: 130px;   
-
-
 	&__subtitle{
 		text-align: center;
 	}
 	&__wrapper{
-		
 		padding: 60px 10px 120px 10px;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -20,7 +16,6 @@
 		height: 270px;
 		border: 1px solid #000000;
 		box-sizing: border-box;
-
 		&_title{
 			margin-top: 20px;
 			font-weight: 700;
@@ -45,9 +40,7 @@
 			grid-template: minmax(20px, auto) 15px / 200px 35px;
 			justify-content: space-between;
 			align-content: space-between;
-			// gap: 25px 30px;
-
-			
+			// gap: 25px 30px;	
 		}
 		&-title{
 			padding-top: 3px ;
@@ -58,7 +51,6 @@
 		&-counter{
 			font-size: 14;
 		}
-
 		}
 		&-indicator{
 			margin: 20px 0;
@@ -70,9 +62,7 @@
 				display: block;
 				height: 100%;
 				background-color: $main-color;
-	
 			}
 		}
 	}
-
 }

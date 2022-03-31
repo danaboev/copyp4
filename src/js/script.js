@@ -11,3 +11,11 @@ close.addEventListener('click', ()=>{
     menu.classList.remove('active');
 
 });
+
+const counters = document.querySelectorAll('.skills__level-counter'),
+    lines =document.querySelectorAll('.skills__level-indicator');
+
+counters.forEach((item,i )=>{
+    lines[i].style.width = item.innerHTML ;
+
+});
